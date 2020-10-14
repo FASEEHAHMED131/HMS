@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -7,6 +8,7 @@ namespace HMS.Models
 {
     public class Accomodation
     {
+        [Key]
         public int Accomodation_ID { get; set; }
         public int AccomodationPackageID { get; set; }
         public AccomodationPackage AccomodationPackage { get; set; }
