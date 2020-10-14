@@ -128,6 +128,7 @@
     <Compile Include="Models\AccomodationType.cs" />
     <Compile Include="Models\Booking.cs" />
     <Compile Include="Models\HMSContext.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
