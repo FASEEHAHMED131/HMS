@@ -14,6 +14,7 @@ namespace HMS.Models
         /// Referecing to the user who booked
         /// </summary>
         public int UserID { get; set; }
+        public User User { get; set; }
         /// <summary>
         /// The Accomodation Selected is this,
         /// </summary>

@@ -118,6 +118,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202010141739470_HMS2.cs" />
+    <Compile Include="Migrations\202010141739470_HMS2.designer.cs">
+      <DependentUpon>202010141739470_HMS2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\202010142051043_HMSM1.cs" />
     <Compile Include="Migrations\202010142051043_HMSM1.designer.cs">
       <DependentUpon>202010142051043_HMSM1.cs</DependentUpon>
@@ -147,6 +151,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+    <Content Include="Views\Home\SignUp.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -158,6 +163,9 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Migrations\202010141739470_HMS2.resx">
+      <DependentUpon>202010141739470_HMS2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202010142051043_HMSM1.resx">
       <DependentUpon>202010142051043_HMSM1.cs</DependentUpon>
     </EmbeddedResource>

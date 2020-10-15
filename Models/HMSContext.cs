@@ -16,5 +16,7 @@ namespace HMS.Models
         public DbSet<AccomodationPackage> AccomodationPackages { get; set; }
         public DbSet<Accomodation> Accomodations { get; set; }
         public DbSet<Booking> Bookings { get; set; }
+
+        public System.Data.Entity.DbSet<HMS.Models.User> Users { get; set; }
     }
 }
